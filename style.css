@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+*::selection{
+  background-color: black;
+  color: white;
+}
+
+
+/* Header Start from here */
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 50px;
+  background-color: #1B242F;
+}
+
+.logo-menu{
+  display: flex;
+  align-items: center;
+}
+
+.logo-img{
+  width: 111px;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  color: white;
+  padding: 0 16px;
+}
+
+.menu ul li{
+  margin-left: 10px;
+}
+
+.second-menu{
+  display: flex;
+  align-items: center;
+}
+
+.second-menu button{
+  background-color: #0f79af;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  font-size: 17px;
+  font-weight: 200;
+  border-radius: 3px;
+}
+
+.second-menu p{
+  color: white;
+  margin-left: 20px;
+}
+
+.search{
+  margin-left: 20px;
+}
+
+.account{
+  margin-left: 20px;
+}
+
+/* Header Ends Here */
+
+
+.banner{
+  background-image: linear-gradient( to right, #000 40%, transparent 58% ),
+  url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+  height: 675px;
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+.content-banner{
+  padding: 94px 4%;
+}
+
+.content-banner h1{
+  font-size: 2.8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.content-banner p{
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  line-height: 1.8rem;
+}
+
+.content-banner button{
+  background-color: #0f79af;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  font-size: 17px;
+  font-weight: 200;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.second-div-content{
+  background-image: linear-gradient(to left, #000 40%, transparent 58%),
+  url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg");
+  min-height: 480px;
+}
+
+.content-right{
+  padding-top: 50px;
+  padding-left: 47%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  word-spacing: 2px;
+}
+
+.content-right h1{
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.content-right p{
+  font-size: 21px;
+  line-height: 2rem;
+  margin-top: 20px;
+  font-weight: 100;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content-right button{
+  width: 250px;
+  background-color: #0f79af;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  font-size: 17px;
+  font-weight: 200;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.channels-list{
+  min-height: 70vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 50px 5%;
+}
+
+.content-div{
+  max-width: 700px;
+  padding-right: 5%;
+}
+
+.content-div h1{
+  font-size: 2.8rem;
+  font-weight: 200;
+}
+
+.content-div p{
+  font-size: 1.2rem;
+  font-weight: 100;
+  opacity: .5;
+  margin-top: 20px;
+}
+
+.threecolo img{
+  width: 256px;
+}
+
+.third-content{
+  background-image: linear-gradient(to left, #000 40%, transparent 58%),url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+  min-height: 480px;
+}
+
+.content-third{
+  color: white;
+  width: 850px;
+  margin-left: 50%;
+  padding-top: 7%;
+}
+
+.content-third h1{
+  font-size: 2.4rem;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content-third p{
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 100;
+  font-family:'Poppins', sans-serif; ;
+}
+
+.content-third button{
+  width: 250px;
+  background-color: #0f79af;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  font-size: 17px;
+  font-weight: 200;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.forth-content{
+  background-image: linear-gradient(to right, #000 40%, transparent 58%),url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg");
+  min-height: 480px;
+  background-size: cover;
+}
+.forth-content-title{
+  color: white;
+  width: 850px;
+}
+
+.forth-content-title p{
+  font-size: 20px;
+}
+
+footer{
+  background-color: #222222;
+  text-align: center;
+  padding: 10px 0;
+  color: #949494;
+}
+.conditions{
+  display: flex;
+}
+
+footer p{
+  color: #0f79af;
+  margin-top: 10px;
+}
+
+footer .year p{
+  color: white;
+  margin-top: 10px;
+}
